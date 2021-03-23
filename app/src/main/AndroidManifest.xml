@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TUGASPAM1">
+        <activity android:name=".Activitypendaftaran"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".ActivityHasil"
             android:parentActivityName=".MainActivity"
             android:label="@string/label2"></activity>
